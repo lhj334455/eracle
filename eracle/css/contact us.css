@@ -1,0 +1,124 @@
+/*
+* @Author: Administrator
+* @Date:   2016-10-29 19:35:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-10-30 00:07:02
+*/
+.wrap{
+	padding-bottom: 64px;
+}
+.wrap h3{
+	font-size: 32px;
+	color: #EB6841;
+	height: 69px;
+	line-height: 69px;
+	text-align: center;
+	padding-top: 47px;
+}
+.wrap .contact_l{
+	float: left;
+	width: 280px;
+	margin-right: 53px;
+}
+.wrap .contact_l h4{
+	line-height: 25px;
+	font-size: 21px;
+	color: #7D7D7D;
+	font-style: italic;
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+.wrap .contact_l p{
+	height: 28px;
+	line-height: 28px;
+	color: #969696;
+	font-size: 18px;
+}
+.wrap .contact_l p a{
+	color: #969696;
+}
+.wrap .contact_l p a:hover{	
+	color: #EB6841;
+	transition: all 0.7s ease;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+}
+.wrap .contact_r{
+	float: left;
+	width: 878px;
+}
+.wrap .contact_r h5{
+	font-size: 29px;
+	color: #00A0B0;
+	height: 52px;
+	line-height: 52px;
+	font-style: italic;
+	padding-top: 25px;
+}
+.wrap .contact_r .name,.wrap .contact_r .email{
+	float: left;
+	height: 51px;
+	line-height: 51px;
+	border-bottom: 1px solid #CCCCCC;
+	width: 427px;
+	color: #B9B9B9;
+	font-size: 17px;
+	font-weight: bold;
+}
+.wrap .contact_r .email{
+	float: right;
+}
+.wrap .contact_r textarea{
+	resize: none;
+	height: 42px;
+	border-bottom: 1px solid #CCCCCC;
+	width: 878px;
+	color: #B9B9B9;
+	font-size: 17px;
+	font-weight: bold;	
+	padding-top: 15px;
+}
+.wrap .contact_r .send{
+	color: #000;
+    float: right;
+    font-size: 17px;
+    background: url('../images/msg.png') no-repeat #fff 0px 6px;
+    padding-left: 27px;
+    padding-top: 2px; 
+    cursor: pointer;
+    margin-top: 22px;
+}
+.wrap .contact_r .send:hover{
+	color: #00A0B0;
+	transition: all 0.7s ease;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+}
+/* wrap_banner */
+.wrap_banner{
+	height: 202px;
+	background: url('../images/dsnbanner.jpeg') no-repeat center top;
+	animation: banner 3s ease;
+	-webkit-animation: banner 3s ease;
+	overflow: hidden;
+}
+@keyframes banner{
+	0%{
+		transform: translateX(2000px);
+		-webkit-transform: translateX(2000px);
+		-moz-transform: translateX(2000px);
+		-ms-transform: translateX(2000px);
+		-o-transform: translateX(2000px);
+	}
+	100%{
+		transform: translateX(0px);
+		-webkit-transform: translateX(0px);
+		-moz-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		-o-transform: translateX(0px);
+	}
+}

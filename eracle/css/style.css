@@ -1,0 +1,237 @@
+/*清零*/
+*{
+	padding:0; 
+	margin:0;
+}
+ul{
+	list-style: none;
+}
+a,s{
+	text-decoration: none;
+}
+a{
+	color: #666;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 12px;
+	font-weight: normal;
+}
+img,input,textarea{
+	border: none;
+}
+input,textarea{
+	outline: none;
+	border: none;
+}
+input img{
+	border: 0 none;
+}
+input:focus{
+	border: 0 none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+i{
+	font-style: normal;
+	font-family: "FontAwesome";
+}
+/*公用*/
+body{
+	font: 12px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+.inner{
+	max-width: 1331px;
+	margin: 0 auto;
+	width: 100%
+}
+/* header */
+.header_top{
+	height: 83px;
+	background-color: #21b7c6;
+}
+.header_top .logo a{
+	float: left;
+	width: 290px;
+}
+.header_top .logo a img{
+	float: left;
+	width: 40px;
+	height: 39px;
+	padding: 16px 32px 28px 12px;
+}
+.header_top .logo a h1{
+	float: left;
+	width: 201px;
+	height: 75px;
+	background-color: #eb6841;
+	border-right: 5px solid #cd542f;
+	border-bottom: 5px solid #ba3a14;
+	font-size: 35px;
+	color: #fff;
+	line-height: 69px;
+	text-align: center;
+}
+.header_top p{
+	float: right;
+	height: 83px;
+	line-height: 83px;
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+	padding-right: 32px;
+}
+.header_bot{
+	height: 85px;
+	background-color: #00a0b0;
+}
+.header_bot .nav{
+	float: left;
+}
+.header_bot .nav li{
+	float: left;
+	margin-right: 20px;
+}
+.header_bot .nav li a{
+	display: inline-block;
+	line-height: 85px;
+	padding: 0 15px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+.header_bot .nav li a:hover{
+	color: #74d7e1;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+.header_bot .nav li .active{
+	color: #74d7e1;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);	
+}
+.search{
+	float:right;
+}
+.search form{
+	width: 324px;
+	height: 41px;
+	padding-top: 20px;
+}
+.search .search_txt{
+	width: 287px;
+	height: 41px;
+	background-color: #fff;
+	border-radius: 30px 0 0 30px;
+	float: left;
+	color: #908e96;
+	text-indent: 16px;
+	font-size: 14px;
+	line-height: 41px;
+}
+.search .search_btn{
+	width: 37px;
+	height: 41px;
+	float: left;
+	background: #fff url('../images/search_h1.png') no-repeat 0px 10px;
+	border-radius: 0 30px 30px 0;
+	cursor: pointer;
+}
+.search .search_btn:hover{
+	background: #fff url('../images/search_h.png') no-repeat 0px 10px;	
+	transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+}
+
+/* footer */
+footer{
+	height: 373px;
+	background-color: #eb6841;
+}
+footer .footer_top{
+	height: 215px;
+	padding-top: 19px;
+	border-bottom: 2px solid rgba(239, 133, 101, 0.4);
+}
+.footer_top .footer_tl{
+	width: 624px;
+	float: left;
+	color: #fff; 
+}
+.footer_top .footer_tl h3,.footer_top .footer_tr h3{
+	height: 80px;
+	line-height: 80px;
+	font-size: 19px;
+	font-weight: bold;
+}
+.footer_top .footer_tl p,.footer_top .footer_tr p{
+	line-height: 26px;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.footer_top .footer_tr{
+	float: left;
+	color: #fff;
+	width: 639px;
+	margin-left: 68px;
+}
+.footer_bot ul{
+	float: left;
+	padding-top: 21px;
+	width: 624px;
+}
+.footer_bot ul li{
+	float: left;
+	margin: 0 10px;
+}
+.footer_bot ul li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 26px;
+	background-color: #31a4c7;
+	color: #fff;
+	font-size: 17px;
+	transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;		
+}
+.footer_bot ul li a:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	opacity: 0.7;
+	background-color: #5d5b8b;
+}
+.footer_bot p{
+	float: left;
+	width: 639px;
+	margin-left: 68px;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+}
